@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+   
+    color: #333;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.intro_text {
+   margin-left: 30px;
+   font-size: 40px;
+   
+}
+.intro_text h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+.intro_text p {
+    margin: 5px 0;
+    color: #555;
+}
+.intro-image {
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.intro_image img {
+    width: 100%; 
+    height: auto; }
+
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+button {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.2s;
+}
+button.icon {
+    margin-right: 5px;
+}
+button:hover {
+    background-color:palevioletred;
+    transform: scale(1.1);
+}
+.hidden {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+#contact-info ul li {
+    margin: 10px 0;
+}
+#contact-info ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+#contact-info ul li a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+ #about-info {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: default; 
+}
+
+#about-info p {
+    text-decoration: none; 
+    color: #333; 
+    cursor: default; 
+}
+
+#about-info p:hover {
+    text-decoration: none; 
+    color: #333; 
+    cursor: default; }
+
+
